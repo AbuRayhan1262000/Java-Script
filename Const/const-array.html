@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Const</title>
+</head>
+<body>
+    <p>Declaring a constant array does NOT make the elements unchangeable:</p>
+    <p id="demo"></p>
+    <script>
+        // create an array
+        const smart_phone=["xaomi","walton","samsung","Vibo","One plus"];
+        // change an element
+        smart_phone[1]=["iphone"]
+        // add element
+        smart_phone.push("oppo");
+        //display the array
+        document.getElementById("demo").innerHTML=smart_phone;
+    </script>
+</body>
+</html>
