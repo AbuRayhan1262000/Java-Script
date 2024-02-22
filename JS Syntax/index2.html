@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Syntax</title>
+</head>
+<body>
+  <h2>JavaScript is Case Sensitive</h2>
+
+   <p>Try to change lastName to lastname.</p>
+ 
+  <p id='demo'></p>
+  <p id='demo1'></p>
+
+
+  <script>
+    //The variables lastName and lastname, are two different variables:
+   let lastname, lastName; 
+   lastname = "karim";
+   lastName = "Rahim";
+
+   document.getElementById('demo').innerHTML = lastname;
+   document.getElementById('demo1').innerHTML = lastName;
+  </script>
+
+</body>
+</html>
